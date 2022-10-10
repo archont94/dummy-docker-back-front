@@ -1,7 +1,7 @@
 import time
 import requests
 
-BACKEND_ADDRESS = '127.0.0.1'
+BACKEND_ADDRESS = 'backend-app-name'
 BACKEND_PORT = '8800'
 BACKEND_API = f'http://{BACKEND_ADDRESS}:{BACKEND_PORT}'
 
@@ -14,4 +14,5 @@ def main():
         time.sleep(1)
 
 if __name__ == '__main__':
+    time.sleep(5)
     main()
